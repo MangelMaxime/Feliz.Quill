@@ -138,6 +138,7 @@ module Editor =
 
     [<ReactComponent>]
     let Editor (p:Props) =
+        printfn "redzd"
         ofImport
             "default"
             "react-quill"
